@@ -126,4 +126,7 @@ def game_hash
   }
 end
 
-# Write code here
+def num_points_scored(player_name)
+  player = player_stats(player_name)
+  return player[:points]
+end
